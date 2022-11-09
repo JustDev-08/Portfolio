@@ -8,6 +8,7 @@ const iconSkill = {
     "js" : "https://img.icons8.com/color/48/000000/javascript--v1.png" ,
     "react" : "https://img.icons8.com/color/48/000000/react-native.png" ,
     "css" : "https://img.icons8.com/color/48/000000/css3.png",
+    "math" : "https://img.icons8.com/external-solidglyph-m-oki-orlando/64/null/external-Calculus-artificial-intelligence-solidglyph-m-oki-orlando.png"
 }
 
 export default function About() {
@@ -40,6 +41,7 @@ export default function About() {
                                     <li><Image src={iconSkill.js}/></li>
                                     <li><Image src={iconSkill.react}/></li>
                                     <li><Image src={iconSkill.css}/></li>
+                                    <li><Image src={iconSkill.math} /></li>
                                 </ul>
                            
                             </Card.Text>    
